@@ -1,6 +1,7 @@
 ---
 - name: test
-  hosts: app
+  hosts: production
   user: admin
+  sudo: yes
   roles:
     - app

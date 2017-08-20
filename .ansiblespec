@@ -1,3 +1,4 @@
 ---
 -
   playbook: app.yml
+  inventory: production
