@@ -1,0 +1,5 @@
+---
+- name: install / install httpd
+  yum:
+    name: "{{ package }}"
+    state: latest

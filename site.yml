@@ -1,0 +1,6 @@
+---
+- name: test
+  hosts: app
+  user: admin
+  roles:
+    - app
